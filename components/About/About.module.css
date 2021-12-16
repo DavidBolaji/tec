@@ -1,0 +1,12 @@
+.cont {
+    padding-inline:20px ;
+  }
+
+  .cont p {
+    color: #969696;
+    font-family: cursive;
+    line-height: 25px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  

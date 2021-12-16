@@ -1,0 +1,36 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 0vw;
+    bottom: 0;
+    height: 100vh;
+    background-color: #00529B;
+    border-right: 1px solid black;
+    padding-top: 60px;
+    padding-inline: 20px;
+    transition: 0.7 ease;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 50vw;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.sidebar ul li:hover {
+    color: #E91D28;
+}

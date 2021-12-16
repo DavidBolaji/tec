@@ -1,0 +1,22 @@
+.carou {
+    height: 150px;
+    background: url('../../assets/images/community.webp');
+    /* background-size: contain; */
+    position: relative;
+}
+
+.cont {
+    position: absolute;
+    top: 5px;
+    padding-inline: 25px;
+}
+
+.cont h2 {
+    color: #ffffff;
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin-inline: auto;
+    text-align: center;
+}
+

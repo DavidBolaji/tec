@@ -1,0 +1,45 @@
+.connect {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+} 
+
+.text {
+    flex: 0.5;
+} 
+
+.text h3 {
+    color: #00529B;
+    text-transform: uppercase;
+}
+
+.btn {
+    flex: 0.5;
+    display: flex;
+}
+
+
+.btn > * {
+    transform: scale(0.4);
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 900px) {
+    .connect {
+        height: 100px;
+    } 
+
+    .text h3 {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    .btn > * {
+        transform: scale(0.2);
+        cursor:pointer;
+    }
+}
