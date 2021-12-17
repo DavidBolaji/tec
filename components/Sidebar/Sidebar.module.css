@@ -17,9 +17,10 @@
 .overlay {
     position: fixed;
     top: 0;
-    width: 48vw;
+    width: 100vw;
     right: 0;
     height: 100vh;
+    z-index: -2;
     background-color: rgba(0,0,0,0.5);
 }
 .sidebar ul {
