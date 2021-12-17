@@ -25,7 +25,8 @@
     height: 10px;
     border-bottom: 3px solid #926424;
     margin-inline: auto;
-    
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     right: 160px;
     top: 20px;
