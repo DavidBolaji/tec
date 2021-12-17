@@ -8,14 +8,16 @@
     background-color: #00529B;
     border-right: 1px solid black;
     padding-top: 60px;
-    padding-inline: 20px;
+    padding-inline: 22px;
+    padding-left: 22px;
+    padding-right:22px;
     transition: 0.7 ease;
 }
 
 .overlay {
     position: fixed;
     top: 0;
-    width: 50vw;
+    width: 48vw;
     right: 0;
     height: 100vh;
     background-color: rgba(0,0,0,0.5);

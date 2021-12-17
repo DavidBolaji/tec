@@ -9,6 +9,8 @@
     position: absolute;
     top: 5px;
     padding-inline: 25px;
+    padding-left: 25px;
+    padding-right:25px
 }
 
 .cont h2 {
@@ -17,6 +19,16 @@
     text-transform: uppercase;
     max-width: 400px;
     margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .cont h2 {
+        transform: translateY(55px);
+        white-space: nowrap;
+    }
 }
 

@@ -9,6 +9,8 @@
     position: absolute;
     top: 5px;
     padding-inline: 25px;
+    padding-left: 25px;
+    padding-right:25px
 }
 
 .cont h2 {
@@ -87,6 +89,8 @@
     }
     .cont {
         padding-inline: 200px;
+        padding-left: 200px;
+        padding-right:200px
     }
     .drop {
         transform: scale(0.6) translate(450px,-280px);

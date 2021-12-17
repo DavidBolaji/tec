@@ -1,7 +1,9 @@
 .footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-inline: 20px;
+    padding-inline: 22px;
+    padding-left: 22px;
+    padding-right:22px;
     background-color: #00529B;
     text-align: center;
 }

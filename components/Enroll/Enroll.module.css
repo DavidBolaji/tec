@@ -1,7 +1,9 @@
 .enroll {
     position: relative;
     z-index: 1;
-    padding-inline: 20px;
+    padding-inline: 22px;
+    padding-left: 22px;
+    padding-right:22px;
     padding-bottom: 20px;
     padding-top:20px;
     display: flex;
