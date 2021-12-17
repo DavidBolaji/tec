@@ -10,6 +10,8 @@
     text-transform: uppercase;
     max-width: 300px;
     margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main {
